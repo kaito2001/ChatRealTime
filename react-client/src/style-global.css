@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Numans");
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-family: "Numans", sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+}
+#video {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#video-page {
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.fs-12 {
+  font-size: 12px !important;
+}
+
+.message {
+  width: 100vh;
+  height: calc(100% - 100px) !important;
+}
+
+.send-message {
+  height: 50px;
+}
